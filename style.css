@@ -1,0 +1,219 @@
+*{
+margin:0;
+padding:0;
+font-family:"Inter", sans-serif;
+}
+html
+{
+scroll-behavior:smooth;
+}
+body
+{
+background:#efefef;
+}
+header
+{
+position:fixed;
+width:100%;
+background:#efefef;
+border-bottom:1px solid black;
+}
+nav
+{
+height:70px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 8%;
+}
+.name
+{
+font-size:26px;
+font-weight:667;
+}
+.nav-links
+{
+display:flex;
+gap:30px;
+align-items:center;
+}
+nav a
+{
+text-decoration:none;
+color:gray;
+}
+nav a:hover
+{
+color:black;
+}
+
+#home
+{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.home-content
+{
+width:80%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.left-text
+{
+width:45%;
+}
+.intro-boys
+{
+font-size:32px;
+margin-bottom:15px;
+}
+.left-text h1
+{
+font-size:64px;
+margin-bottom:20px;
+}
+.left-text h3
+{
+color:gray;
+font-size:36px;
+margin-bottom:30px;
+}
+.home-text
+{
+width:80%;
+font-size:16px;
+line-height:1.67;
+color:#555;
+margin-bottom:25px;
+}
+.button-container
+{
+display:flex;
+align-items:center;
+gap:20px;
+}
+.my-projects
+{
+background:black;
+color:white;
+border:none;
+padding:15px 25px;
+cursor:pointer;
+display:inline-flex;
+align-items:center;
+gap:8px;
+}
+.contact-me
+{
+background:transparent;
+border:2px solid gray;
+padding:15px 25px;
+cursor:pointer;
+display:inline-flex;
+align-items:center;
+gap:8px;
+}
+.social-icon
+{
+font-size:40px;
+color:black;
+cursor:pointer;
+}
+.home-pic
+{
+width:45%;
+display:flex;
+justify-content:center;
+}
+.home-pic img
+{
+width: 667px;
+height: auto;
+display: block;
+margin-top: 30px;
+}
+
+#about
+{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#e6e6e6;
+}
+.about-container
+{
+width:80%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.about-pic
+{
+width:45%;
+display:flex;
+justify-content:center;
+}
+.about-pic img
+{
+width: 567x;
+height: auto;
+display: block;
+}
+.about-content
+{
+width:45%;
+text-align:center;
+}
+.about-content h2
+{
+font-size:48px;
+}
+.title-line
+{
+width:100px;
+height:3px;
+background:black;
+margin:15px auto 30px auto;
+}
+.about-text
+{
+line-height:1.8;
+color:#555;
+margin-bottom:25px;
+text-align: justify;
+}
+.about-buttons
+{
+display:flex;
+align-items:center;
+gap:25px;
+}
+.secondary-btn
+{
+background:transparent;
+border:2px solid gray;
+padding:15px 25px;
+cursor:pointer;
+
+display:inline-flex;
+align-items:center;
+gap:8px;
+}
+
+#skills,
+#projects,
+#resume,
+#contact
+{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+font-size:32px;
+text-align:center;
+}
